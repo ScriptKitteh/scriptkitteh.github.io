@@ -1,5 +1,7 @@
 # garrukapex.github.io
+My website
+This is hosting my website, because it's free. Cool. 
 
-Cool. You're in the DEVELOPMENT branch. 
+Amyways, look around if you want to have to purge your eyes at my one-afternoon-self-taught html skillz. 
 
-This is the brach with all the comments. So, you know, I don't forget what I did. The 'production' branch is master, which shouldn't have any comments, in order to reduce page loading times. Of course, it has them now, because I haven't had time to take them out yet. 
+It's not bad for what I learned in one afternoon. After all, its not like I was procrastinating something else. 

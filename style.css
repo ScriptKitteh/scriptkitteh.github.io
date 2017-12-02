@@ -20,7 +20,8 @@ a:visited {    /*visited links*/
 	
 .links {   /*affects the links class*/
 	display:inline-block;
-	
+	margin-left: :auto;
+    margin-right:auto;
 }
 
 .pgp {    /*affects the formatting of pgp public key*/
