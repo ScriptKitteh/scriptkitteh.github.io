@@ -1,3 +1,14 @@
+
+body{
+    font-size:20px;
+
+
+    /*background-color:86CDFF;  Blue background color */
+}
+
+
+
+
 ul {  /*Affects all unordered lists*/
     list-style-type: none;
     margin: 0;
@@ -8,7 +19,7 @@ ul {  /*Affects all unordered lists*/
 }
 a {  /*affects all links*/
 	text-decoration:none;
-	color: black;
+	
 }
  .navigation {   /*navigation class*/
 	 font-size:27px;
@@ -18,16 +29,18 @@ a:visited {    /*visited links*/
 	text-decoration:none;
 	}
 	
+
+
+
 .links {   /*affects the links class*/
 	display:inline-block;
-	
+	margin-left:auto;
+    margin-right:auto;
+    width:;
+
+   
 }
 
-.pgp {    /*affects the formatting of pgp public key*/
-	width:590px;
-	display:block;
-	word-wrap:break-word;
-}
 
 li {
     float: left;
@@ -35,7 +48,7 @@ li {
 
 li a, .dropbtn {
     display: inline-block;
-    color: 666;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -76,8 +89,6 @@ li.dropdown {
 }
 
 
-
-
 footer {
 	font-size:14px;
 	clear: left;
@@ -85,4 +96,29 @@ footer {
 	background: #ccc;
 	text-align: center;
 	padding: 4px 0;
+    
+}
+.footHold {    /*Footers that need to be held to the bottom of the screen*/
+    position:fixed;
+    bottom:0;
+}
+
+
+.headText {
+    text-align:center;
+    font-size:40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.bg {
+    background-image: url("images/Sunset.JPG");
+    height:50%;
+    width:100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
 }
