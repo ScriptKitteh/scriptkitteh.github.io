@@ -1,9 +1,33 @@
 
+
+
+header {
+    background-color:#F1F1F1;
+    text-align:center;
+    padding:5px;
+}
+
+
 body{
     font-size:20px;
-
+    height: 100%;
+    margin:0;
 
     /*background-color:86CDFF;  Blue background color */
+}
+
+
+.column {
+    float:left;
+}
+
+.column.main {
+    width:70%;
+
+}
+
+.column.side {
+    width:20%;
 }
 
 
@@ -22,7 +46,7 @@ a {  /*affects all links*/
 	
 }
  .navigation {   /*navigation class*/
-	 font-size:27px;
+	 font-size:30px;
  
  }
 a:visited {    /*visited links*/
@@ -32,16 +56,20 @@ a:visited {    /*visited links*/
 
 
 
-.links {   /*affects the links class*/
+.links {   /*affects the links class on the about me page*/
 	display:inline-block;
 	margin-left:auto;
     margin-right:auto;
     width:;
-
-   
 }
 
+.linkBlock {      /*A block of the elements of the links class, used for centering the items*/
+    margin:auto;
+    width:40%;
 
+}
+
+    /*CSS FOR THE NAVIGATION BAR*/
 li {
     float: left;
 }
@@ -88,6 +116,8 @@ li.dropdown {
 	
 }
 
+/*END CSS FOR THE NAVIGATION BAR*/
+
 
 footer {
 	font-size:14px;
@@ -104,21 +134,27 @@ footer {
 }
 
 
-.headText {
+.headText {   /*main text on index */
     text-align:center;
     font-size:40px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 
-.bg {
+.bg {    /*background image for index */
     background-image: url("images/Sunset.JPG");
-    height:50%;
+    height:100%;
     width:100%;
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
+    position:fixed;
+    left:0;
+}
+
+#description {
+    padding-left:10%;
 }

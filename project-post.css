@@ -1,0 +1,63 @@
+body {
+	margin:0;
+}
+
+
+.artTitle {
+	text-align:center;
+}
+
+.column {
+    float:left;
+}
+
+.column.main {   /*styling of the main column*/
+    width:70%;
+    padding-left:10%;
+
+}
+
+.column.side {    /*styling of the side column*/
+    width:20%;
+}
+
+.post-image {    /*the images in the main content area*/
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+}
+
+#images {
+	text-align:center;
+}
+
+.side-image {     /*the image of my cat in the sidebar*/
+	margin:auto;
+	display:block;
+}
+.side-title {      /*the title, containing my name, in the sidebar*/
+	text-align:center;
+}
+
+.articles {  /*the styling of the article links in the sidebar*/
+	color:black;
+	text-align:center;
+}
+.article-image {
+	margin:auto;
+	display:block;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
