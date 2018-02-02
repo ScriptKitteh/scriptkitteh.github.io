@@ -17,8 +17,11 @@ body {
 
 
 }
-.column.side {    /*styling of the side column*/
+.column-side {    /*styling of the side column*/
     width:20%;
+    background-color:2C3E50;
+    float:right;
+    height:150%;
 }
 
 .post-image {    /*the images in the main content area*/
@@ -34,13 +37,15 @@ body {
 .side-image {     /*the image of my cat in the sidebar*/
 	margin:auto;
 	display:block;
+    width:80%;
 }
 .side-title {      /*the title, containing my name, in the sidebar*/
 	text-align:center;
+    color:whitesmoke;
 }
 
 .articles {  /*the styling of the article links in the sidebar*/
-	color:black;
+	color:whitesmoke;
 	text-align:center;
 }
 .article-image {
@@ -49,6 +54,10 @@ body {
 }
 
 
+#side-text {
+    padding-left:5%;
+    color:whitesmoke;
+}
 .row:after {
     content: "";
     display: table;
